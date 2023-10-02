@@ -188,7 +188,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.p2p.onConnection();
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9569948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9297252);
 }
 }
 if (isConditionTrue_0) {

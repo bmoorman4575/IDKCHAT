@@ -14,7 +14,7 @@ gdjs.loadingCode.GDscreenwillbeusedlaterObjects2= [];
 
 
 gdjs.loadingCode.mapOfGDgdjs_9546loadingCode_9546GDchooseroomtxt2Objects1Objects = Hashtable.newFrom({"chooseroomtxt2": gdjs.loadingCode.GDchooseroomtxt2Objects1});
-gdjs.loadingCode.asyncCallback9425084 = function (runtimeScene, asyncObjectsList) {
+gdjs.loadingCode.asyncCallback9189348 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "roomconnectscene", true);
 }}
 gdjs.loadingCode.eventsList0 = function(runtimeScene) {
@@ -25,7 +25,7 @@ gdjs.loadingCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.loadingCode.asyncCallback9425084(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.loadingCode.asyncCallback9189348(runtimeScene, asyncObjectsList)));
 }
 }
 

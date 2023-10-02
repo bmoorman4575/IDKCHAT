@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile !== "undefined")
 gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile = {};
 
 
-gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.userFunc0x89e6a8 = function(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.userFunc0x8b3ba8 = function(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const allowedFileTypes = ["text/plain", "application/json"];
 
@@ -44,7 +44,7 @@ gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.eventsList0 = function(runt
 
 
 var objects = [];
-gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.userFunc0x89e6a8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__UploadDownloadTextFile__UploadTextFile.userFunc0x8b3ba8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
